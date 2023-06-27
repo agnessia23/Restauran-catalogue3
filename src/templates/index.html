@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free restaurant catalogue for you">
+  <title>Nestoran Catalogue</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="./Nestoran.png">
+  <link rel="manifest" href="./app.webmanifest">
+  <meta name="theme-color" content="#DB0000"/>
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+
+</head>
+<body>
+  <header class="header">
+    <a href="#content" class="skip-link">Menuju ke konten</a>
+    <div class="menu">
+      <button id="hamburger">☰</button>
+    </div>
+    <div class="brand">
+      <h1> Nes<span>toran</span></h1>
+    </div>
+    <nav id="navigationDrawer" class="navigation">
+      <ul>
+        <li><a href="#/list-restaurants">HOME</a></li>
+        <li><a href="#/Favorites">FAVORITE</a></li>
+        <li><a href="https://github.com/agnessia23" target="__blank">ABOUT US</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="hero" id="home">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./images/hero-image_4-small.jpg">
+      <img class="lazyload" data-src='./images/hero-image_4-large.jpg' alt="hero-jumbotron">
+      <div class="tagline">
+        <h1>Let Nesto Make Your Day</h1>
+        <p>A symphony of flavors for the discerning palate</p>
+      </div>
+    </picture>
+  </div>
+  
+  <main id="mainContent" tabindex="0" ></main>
+<footer>
+  <p>All data obtained from <a href="https://restaurant-api.dicoding.dev/" target="_blank" rel="noreferrer">Dicoding</a></p>
+  <p>&copy; 2023 Nestoran</p>
+</footer>  
+</body>
+</html>

@@ -1,0 +1,35 @@
+.hero {
+    position: relative;
+    width: 100%;
+  }
+  
+  .tagline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 25px 5%;
+    max-width: 68rem;
+  }
+  
+  .tagline h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tagline p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  picture {
+    display: block;
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,75 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: black;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.header{
+  padding: 8px 16px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+}
+.header .menu button {
+  background-color: trfansparent;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  cursor: pointer;
+} 
+
+  /*
+    Main Content
+  */
+   
+  main {
+    padding: 32px;
+    flex: 1;
+  }
+  
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 9999;
+  }
+  .skip-link a {
+    color: #333;
+    text-decoration: none;
+  }
+
+.skip-link:focus {
+    top: 0;
+    transition: all 0.4s;
+}
+
+a,input,text,textarea, button {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 10px; /* Jarak antara elemen */
+  margin-bottom: 10px; /* Jarak antara elemen */
+}
